@@ -8,4 +8,6 @@ This website is a project of an NGO called AnimaLs that aims to care for animals
 - Responsive
 - Built with HTML, CSS and JQuery
 
+![ImagemAnimaPet](https://user-images.githubusercontent.com/65318224/96031073-3fb6d600-0e33-11eb-9334-f438844b0e05.png)
+
 
