@@ -125,7 +125,7 @@ section .title{
     text-align: center;
     line-height: 45px;
     color: #fff;
-    z-index: 9999;
+    z-index: 99;
     font-size: 30px;
     border-radius: 200px;
     border-bottom-width: 2px;
@@ -293,23 +293,7 @@ section .title{
 }
 .skills .skills-content .left p{
     text-align: justify;
-    font-size: 18px;
-}
-.skills .skills-content .left a{
-    display: inline-block;
-    background: #f47932;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #f47932;
-    transition: all 0.3s ease;
-}
-.skills .skills-content .left a:hover{
-    color: #f47932;
-    background: none;
+    font-size: 17px;
 }
 .skills .skills-content .right{
     align-items: center;
@@ -342,6 +326,7 @@ section .title{
     padding: 25px;
     border-radius: 3px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+    
 }
 .wrapper .box i.quote{
     font-size: 20px;
@@ -587,7 +572,7 @@ footer span a:hover{
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
-        font-size: 19px;
+        font-size: 18px;
     }
     .contact .right form .fields{
         flex-direction: column;
@@ -618,7 +603,23 @@ footer span a:hover{
         display: flex;
         order: -1;
     }
-    
+    section .title{
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .skills .skills-content .left p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    .about .about-content .right p{
+        text-align: justify;
+        font-size: 16px;
+    }
 }
 @media (max-width: 380px) {
     .wrapper{
@@ -626,6 +627,6 @@ footer span a:hover{
         padding: 0 2px;
     }
     .wrapper .box{
-        padding: 3px;
+        padding: 10px;
     }
 }
